@@ -10,3 +10,11 @@
 
 ## Screenshot
 ![vue-landing-page](screenshot.png)
+
+## Deployment
+
+For deploy on gh pages, use
+
+``` bash
+git subtree push --prefix dist origin gh-pages
+```
