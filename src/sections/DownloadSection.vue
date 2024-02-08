@@ -4,14 +4,27 @@ import downloads from "../data/downloads";
 
 <template>
     <!-- Download Section Start -->
-    <div id="download-section" class="container mx-auto px-5 md:w-4/5">
+    <div id="solicitar" class="container mx-auto px-5 md:w-4/5">
         <section class="py-16 pt-18">
             <div class="w-4/5 md:w-3/5 mx-auto">
-                <h2 class="text-3xl md:text-4xl font-theme-heading font-medium text-center">Download the extension</h2>
-                <p class="text-theme-grayish-blue text-center text-lg font-theme-content mt-7">We've got more browsers in pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+                <h2 class="text-3xl md:text-4xl font-theme-heading font-medium text-center">
+                    Solicitar productos
+                </h2>
+                <p class="text-theme-grayish-blue text-center text-lg font-theme-content mt-7">
+                    Puedes seleccionar productos de las siguientes categorías. Se agregarán al formulario de contacto al final
+                </p>
             </div>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-                <div v-for="(download, index) in downloads" :key="download.id" :class="[index === 0 ? 'lg:mb-10' : '', index === 1 ? 'lg:mt-10' : '', index === 2 ? 'lg:mt-20 lg:-mb-10' : '']" class="shadow-lg rounded-lg">
+                <div 
+                    v-for="(download, index) in downloads"
+                    :key="download.id"
+                    :class="[
+                        index === 0 ? 'lg:mb-10' : '',
+                        index === 1 ? 'lg:mt-10' : '',
+                        index === 2 ? 'lg:mt-20 lg:-mb-10' : ''
+                    ]"
+                    class="shadow-lg rounded-lg"
+                    >
                     <div class="flex justify-center mt-12">
                         <img :src="download.icon" alt="Browser Logo" />
                     </div>

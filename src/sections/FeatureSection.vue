@@ -9,11 +9,15 @@ let isOpen = ref(1);
 
 <template>
     <!-- Features Section Start -->
-    <div id="features" class="container mx-auto px-5">
+    <div id="products" class="container mx-auto px-5">
         <section class="py-16">
             <div class="w-4/5 md:w-3/5 mx-auto">
-                <h2 class="text-3xl md:text-4xl font-semibold font-theme-heading text-center">Features</h2>
-                <p class="text-theme-grayish-blue text-center mt-7 font-theme-content text-lg">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+                <h2 class="text-3xl md:text-4xl font-semibold font-theme-heading text-center">
+                    Productos
+                </h2>
+                <p class="text-theme-grayish-blue text-center mt-7 font-theme-content text-lg">
+                    Apuntamos a darte los productos más vistosos y en el menor tiempo posible, para mostrarse de la manera más vistosa y rápida a tu público.
+                </p>
             </div>
 
             <div class="mt-10">
