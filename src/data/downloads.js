@@ -1,23 +1,23 @@
 const downloads = [
     {
         id: 1,
-        icon: "images/logo-chrome.svg",
+        icon: "images/letras3d/3d_3d_neon.png",
         title: "Letras 3D",
-        subTitle: "Minimum version 62",
+        subTitle: "Quiero solicitar la creación de mis letras",
         link: "#products",
     },
     {
         id: 2,
-        icon: "images/logo-firefox.svg",
+        icon: "images/letras3d/3d_arrow_up.png",
         title: "Publicidad",
-        subTitle: "Minimum version 55",
+        subTitle: "Quiero que manejen mi publicidad",
         link: "#",
     },
     {
         id: 3,
-        icon: "images/logo-opera.svg",
+        icon: "images/letras3d/3d_tool_svg.png",
         title: "Instalación",
-        subTitle: "Minimum version 46",
+        subTitle: "Quiero que instalen mis letras",
         link: "#",
     },
 ];

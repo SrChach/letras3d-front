@@ -1,31 +1,31 @@
 const features = [
     {
         id: 1,
-        name: "Simple Bookmaring",
+        name: "Letras 3D",
         details: {
-            imageUrl: "images/illustration-features-tab-1.svg",
-            title: "Bookmark in one click",
-            description: "Organize your bookmarks however you like. Our simple drag-n-drop interface gives you complete control over how you manage your favorite websites.",
+            imageUrl: "images/letras3d/3d_dulceolivo.jpg",
+            title: "Impresión de letras 3D",
+            description: "El principal de la casa. Generación de tus letras en la tipografía que elijas y con los colores que elijas.",
             link: "#",
         },
     },
     {
         id: 2,
-        name: "Speedy Searching",
+        name: "Letras 3D con luz",
         details: {
-            imageUrl: "images/illustration-features-tab-2.svg",
-            title: "Intelligent search",
-            description: "Get quick results with our intelligent search feature. Find your bookmarks effortlessly and save time navigating through your favorite websites.",
+            imageUrl: "images/letras3d/3d_six_flags.jpg",
+            title: "Impresión de letras 3D con luz",
+            description: "Obtén visibilidad a todas horas con nuestras letras 3D con luz. Agregamos impresión y adecuación de las luces para su funcionamiento en exteriores",
             link: "#",
         },
     },
     {
         id: 3,
-        name: "Speedy Sharing",
+        name: "Colocación",
         details: {
-            imageUrl: "images/illustration-features-tab-3.svg",
-            title: "Easy sharing",
-            description: "Share your bookmarks seamlessly with others. Our intuitive sharing options allow you to collaborate and spread the word about your favorite websites.",
+            imageUrl: "images/letras3d/3d_colocacion_boss.jpg",
+            title: "Colocación fácil",
+            description: "Colocamos los letreros en tu domicilio, con instalación eléctrica si es el caso. El material corre por nuestra cuenta",
             link: "#",
         },
     },
