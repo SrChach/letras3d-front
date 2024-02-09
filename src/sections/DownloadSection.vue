@@ -34,7 +34,7 @@ import downloads from "../data/downloads";
                         <img class="w-full" src="/images/bg-dots.svg" alt="Dot Backaground" />
                     </div>
                     <div class="flex justify-center mb-8">
-                        <LinkButton btn-type="primary" :link="download.link" class="text-sm">Add & Install Extension</LinkButton>
+                        <LinkButton btn-type="primary" :link="download.link" class="text-sm">Solicitar</LinkButton>
                     </div>
                 </div>
             </div>
