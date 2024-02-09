@@ -1,15 +1,14 @@
 # Landing page made with Tailwind css and Vue js.
 
-> ### Live URL: https://fahimanzamdip.github.io/vue-landing-page/
+> ### Live URL: https://srchach.github.io/letras3d-front/
 
 ## Local Installation
-- `` git clone https://github.com/FahimAnzamDip/vue-landing-page.git ``
+- `` git clone https://github.com/srchach/letras3d-front.git ``
 - `` cd /path/to/project ``
 - `` npm install ``
 - `` npm run dev ``
+- `` npm run build ``
 
-## Screenshot
-![vue-landing-page](screenshot.png)
 
 ## Deployment
 
