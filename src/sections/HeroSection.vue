@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+import Componente from '../components/Componente.vue';
+import RickComponent from '../components/RickComponent.vue';
+</script>
 
 <template>
     <!-- Hero Section Start -->
@@ -9,6 +12,8 @@
                 <p class="lg:text-xl mt-10 font-theme-content text-theme-grayish-blue text-center lg:text-left">
                     Manejamos y creamos sus letras con estilos 3D iluminadas y al gusto
                 </p>
+                <Componente></Componente>
+                <RickComponent/>
                 <div class="flex justify-center lg:justify-start mt-10">
                     <LinkButton btn-type="primary" link="#products">
                         Conoce nuestros productos
